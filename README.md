@@ -30,7 +30,7 @@ Once your application has been deployed, click on *Service variable* and add the
 
 You can get the Project ID value in your Edge Impulse's project dashboard. The API Key is in the *Keys* subsection of the dashboard. Make sure to copy the whole API Key value from Edge Impulse Studio.
 
-![Service variables](09servicevar.png)
+![Service variables](https://github.com/arijitdas123student/pneumonia-detection-edgeml/blob/main/Screenshot%20(57)_LI.jpg)
 
 Finally select the *Devices* section and add your device. Select the *Development* version if you wish to run local tests easily. Don't forget to fill up your wifi network credentials if needed:
 
