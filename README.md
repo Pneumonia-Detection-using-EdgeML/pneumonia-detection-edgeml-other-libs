@@ -28,7 +28,7 @@ Once your application has been deployed, click on *Service variable* and add the
 * EI_API_KEY
 * EI_PROJECT_ID
 
-You can get the Project ID value in your Edge Impulse's project dashboard. The API Key is in the *Keys* subsection of the dashboard. Make sure to copy the whole API Key value (68 characters long).
+You can get the Project ID value in your Edge Impulse's project dashboard. The API Key is in the *Keys* subsection of the dashboard. Make sure to copy the whole API Key value from Edge Impulse Studio.
 
 ![Service variables](09servicevar.png)
 
@@ -36,18 +36,27 @@ Finally select the *Devices* section and add your device. Select the *Developmen
 
 ![Add device to Balena](10devicebalena.png)
 
-Follow the instructions to copy the Balena OS to the SD card of your device.
-Turn on the Raspberry and your device should appear in the Balena dashboard and reboot to load containers. You should see containers' logs as below:
+Next flash the balenaOS image to your Raspberry Pi using balenaEtcher. 
+Turn on the Raspberry Pi and you will see your device stating "Online" after few seconds, then restart the containers. You should see containers' logs as below:
 
 ![Containers' logs](11logs.png)
 
-## Testing our classifier
+## Testing the model
 
-Open your web browser and enter your device's local IP. You can also enable public URL as shown in the screenshot above.
+You will see the `Local IP` of your Raspberry Pi written in your [balena Dashboard](https://dashboard.balena-cloud.com/apps).
 
-The camera feed should be displayed on the webpage. If you notice slow framerate, probably your web browser doesn't support WebRTC and your client has switched to MJPEG. You can check next section to debug WebRTC.
+Fire up an empty browser tab and type that IP address. 
 
-Try to move different objects in front of the camera and see how well the classifier works! Predictions are displayed for all labels with values between 0 and 1, 1 being perfect prediction
+You will get to see a page like this below 
+
+<<PUT IMG>>
+  
+Now bring the camera closer to the X-Ray or the x-ray image you want to scan. 
+
+It will display the results at the bottom of the page with units from 0 to 1 wherein 1 says to be the highest accuracy.
+
+> **Note:** The Raspberry Pi can also be accessed if the `PUBLIC IP ADDRESS` is enabled.
+
 
 ## To deploy on Himax WE-1 Dev board using Edge Impulse CLI
 First download the [himax_library_package](https://github.com/arijitdas123student/pneumonia-detection-edgeml/tree/main/himax_library) 
