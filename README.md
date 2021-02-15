@@ -40,4 +40,4 @@ Then open Terminal/Command Prompt and type `edge-impulse-run-impulse` and wait f
 
 The move the board to any X-Ray or download our dataset images from [here](https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia) and that's it you're done! :)
 
-##Congratulations! You're now running an ML model which can classify Pnuemonia under 1 miliwatt. :D
+## Congratulations! You're now running an ML model which can classify Pnuemonia under 1 miliwatt. :D
