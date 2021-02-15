@@ -34,7 +34,7 @@ You can get the Project ID value in your Edge Impulse's project dashboard. The A
 
 Finally select the *Devices* section and add your device. Select the *Development* version if you wish to run local tests easily. Don't forget to fill up your wifi network credentials if needed:
 
-![Add device to Balena](10devicebalena.png)
+![Add device to Balena](https://github.com/arijitdas123student/pneumonia-detection-edgeml/blob/main/readme_images/Screenshot%20(58).png)
 
 Next flash the balenaOS image to your Raspberry Pi using balenaEtcher. 
 Turn on the Raspberry Pi and you will see your device stating "Online" after few seconds, then restart the containers. You should see containers' logs as below:
