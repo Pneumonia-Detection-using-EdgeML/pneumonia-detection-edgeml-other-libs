@@ -1,7 +1,7 @@
 # Penumonia Detection using EdgeML
 Pneumonia Detection project made using Edge Impulse, Himax, Raspberry Pi and balenaCloud.
 
-## To deploy on Raspberry Pi using balenaCloud -
+## To deploy on Raspberry Pi using balenaCloud 
 Click on the following link to deploy the application to your Balena account:
 
 [![](https://balena.io/deploy.png)](https://dashboard.balena-cloud.com/deploy)
@@ -12,16 +12,16 @@ Once your application has been deployed, click on *Service variable* and add the
 
 You can get the Project ID value in your Edge Impulse's project dashboard. The API Key is in the *Keys* subsection of the dashboard. Make sure to copy the whole API Key value (68 characters long).
 
-![Service variables](images/09servicevar.png)
+![Service variables](09servicevar.png)
 
 Finally select the *Devices* section and add your device. Select the *Development* version if you wish to run local tests easily. Don't forget to fill up your wifi network credentials if needed:
 
-![Add device to Balena](images/10devicebalena.png)
+![Add device to Balena](10devicebalena.png)
 
 Follow the instructions to copy the Balena OS to the SD card of your device.
 Turn on the Raspberry and your device should appear in the Balena dashboard and reboot to load containers. You should see containers' logs as below:
 
-![Containers' logs](images/11logs.png)
+![Containers' logs](11logs.png)
 
 ## Testing our classifier
 
