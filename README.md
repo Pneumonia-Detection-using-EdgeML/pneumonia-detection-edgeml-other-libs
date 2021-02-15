@@ -17,6 +17,8 @@ Pneumonia Detection project made using Edge Impulse, Himax, Raspberry Pi and bal
 
 • [balenaOS](https://www.balena.io/os/)
 
+> **Pssh:** Public version of the Edge Impulse studio project is [here](https://studio.edgeimpulse.com/public/18340/latest), you're free to fork it and use it without starting everything from scratch! :)
+
 ## To deploy on Raspberry Pi using balenaCloud 
 Click on the following link to deploy the application to your Balena account:
 
