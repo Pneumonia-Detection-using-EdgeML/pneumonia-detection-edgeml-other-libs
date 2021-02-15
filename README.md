@@ -1,6 +1,20 @@
 # Penumonia Detection using EdgeML
 Pneumonia Detection project made using Edge Impulse, Himax, Raspberry Pi and balenaCloud.
 
+## Hardware Required 
+• Raspberry Pi 3B+/4B (Here we have used a balenaFin which is an industrial grade Raspberry Pi)
+
+• Himax WE-1 Dev Board (in case you don't have access to bandwidth)
+
+## Software Required 
+• Edge Impulse Studio
+
+• Edge Impulse CLI 
+
+• balenaCloud 
+
+• balenaOS 
+
 ## To deploy on Raspberry Pi using balenaCloud 
 Click on the following link to deploy the application to your Balena account:
 
