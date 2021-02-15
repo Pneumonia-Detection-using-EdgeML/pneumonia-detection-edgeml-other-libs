@@ -1,0 +1,2 @@
+Download this file, extract it and then flash it in your Himax WE-1 Dev Board. 
+The type "edge-impulse-run-impulse" to run the binaries on your Himax dev board.
