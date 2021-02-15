@@ -31,3 +31,10 @@ The camera feed should be displayed on the webpage. If you notice slow framerate
 
 Try to move different objects in front of the camera and see how well the classifier works! Predictions are displayed for all labels with values between 0 and 1, 1 being perfect prediction
 
+## To deploy on Himax WE-1 Dev board using Edge Impulse CLI
+First download the [himax_library_package](https://github.com/arijitdas123student/pneumonia-detection-edgeml/tree/main/himax_library) 
+Then extract the .zip file and click on any of the flashable binaries as per your OS (supports Mac, Linux and Windows).
+Then open Terminal/Command Prompt and type `edge-impulse-run-impulse` and wait for a couple of seconds for the CLI to connect with the board via serial.
+The move the board to any X-Ray or download our dataset images from [here](https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia) and that's it you're done! :)
+
+##Congratulations! You're now running an ML model which can classify Pnuemonia under 1 miliwatt. :D
