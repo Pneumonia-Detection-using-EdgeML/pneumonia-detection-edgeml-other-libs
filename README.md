@@ -2,18 +2,20 @@
 Pneumonia Detection project made using Edge Impulse, Himax, Raspberry Pi and balenaCloud.
 
 ## Hardware Required 
-• Raspberry Pi 3B+/4B (Here we have used a balenaFin which is an industrial grade Raspberry Pi)
+• Raspberry Pi [3B+](https://www.raspberrypi.org/products/raspberry-pi-3-model-b-plus/) or [4B](https://www.raspberrypi.org/products/raspberry-pi-4-model-b/?variant=raspberry-pi-4-model-b-2gb) (Here we have used a [balenaFin](https://www.balena.io/fin/) which is an industrial grade Raspberry Pi)
 
-• Himax WE-1 Dev Board (in case you don't have access to bandwidth)
+• [Himax WE-1 Dev Board](https://www.sparkfun.com/products/17256) (in case you don't have access to bandwidth)
+
+> **Note:** We highly suggest to use the [OpenMV Cam H7 Plus](https://openmv.io/collections/products/products/openmv-cam-h7-plus) as because it has more product funcationalities and also enables us to take Colour images rather than just Grayscale on Himax WE-1 board which is great for taking images of X-Rays.
 
 ## Software Required 
-• Edge Impulse Studio
+• [Edge Impulse Studio](https://studio.edgeimpulse.com)
 
-• Edge Impulse CLI 
+• [Edge Impulse CLI](https://docs.edgeimpulse.com/docs/cli-installation)
 
-• balenaCloud 
+• [balenaCloud](https://balena.io) 
 
-• balenaOS 
+• [balenaOS](https://www.balena.io/os/)
 
 ## To deploy on Raspberry Pi using balenaCloud 
 Click on the following link to deploy the application to your Balena account:
@@ -55,4 +57,13 @@ Then open Terminal/Command Prompt and type `edge-impulse-run-impulse` and wait f
 The move the board to any X-Ray or download our dataset images from [here](https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia) and that's it you're done! :)
 
 ## Congratulations!
-You're now running an ML model which can classify Pnuemonia under 1 miliwatt. :D
+You're now running an ML model which can classify Pnuemonia under 1 miliwatt! :D
+
+![wow_dank](https://user-images.githubusercontent.com/64097541/107933904-5f0e6d00-6fa5-11eb-97f8-d53763908f87.gif)
+
+## Credits
+A big big shout-out to [Aurelien](https://twitter.com/aureleq) (User Success Engineer - Edge Impulse), [Jan](https://twitter.com/janjongboom) (CTO - Edge Impulse) and [Marc](https://twitter.com/gy4nt) (Developer Advocate - balena.io) for all the help they have provided throught the development of this project. Without you guys it wouldn't have been possible!
+
+Also thanks to [Paul Mooney](https://www.kaggle.com/paultimothymooney) (Developer Advocate - Kaggle) for making such an important dataset open-sourced and helping us for collecting X-Ray images for training the model. :)
+
+![thank_you_man](https://user-images.githubusercontent.com/64097541/107934298-e1972c80-6fa5-11eb-8b31-bb00fca8f0c3.gif)
