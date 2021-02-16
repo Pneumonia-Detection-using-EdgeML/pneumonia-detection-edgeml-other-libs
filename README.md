@@ -39,7 +39,7 @@ Finally select the *Devices* section and add your device. Select the *Developmen
 Next flash the balenaOS image to your Raspberry Pi using balenaEtcher. 
 Turn on the Raspberry Pi and you will see your device stating "Online" after few seconds, then restart the containers. You should see containers' logs as below:
 
-![Containers' logs](11logs.png)
+![Containers' logs](https://github.com/arijitdas123student/pneumonia-detection-edgeml/blob/main/readme_images/Screenshot%20(59)_LI.jpg)
 
 ## Testing the model
 
