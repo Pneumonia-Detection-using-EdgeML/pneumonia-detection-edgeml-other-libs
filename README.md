@@ -47,9 +47,9 @@ You will see the `Local IP` of your Raspberry Pi written in your [balena Dashboa
 
 Fire up an empty browser tab and type that IP address. 
 
-You will get to see a page like this below 
+You will get to see a page wherein the labels will get displayed.
 
-<<PUT IMG>>
+![Local IP Screen](https://github.com/arijitdas123student/pneumonia-detection-edgeml/blob/main/readme_images/Screenshot%20(60).png)
   
 Now bring the camera closer to the X-Ray or the x-ray image you want to scan. 
 
