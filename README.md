@@ -67,6 +67,14 @@ Then open Terminal/Command Prompt and type `edge-impulse-run-impulse` and wait f
 
 The move the board to any X-Ray or download our dataset images from [here](https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia) and that's it you're done! :)
 
+## Videos/Resources 
+Having issues with deploying this on a Raspberry Pi ?
+
+Then check this video below 👇
+
+[![Pneumonia Detection using EdgeML - Deploying on a Raspberry Pi](http://img.youtube.com/vi/F-lKMU4wCgo/0.jpg)](http://www.youtube.com/watch?v=F-lKMU4wCgo "Penumonia Detection using EdgeML - Deploying on a Raspberry Pi")
+
+
 ## Congratulations!
 You're now running an ML model which can classify Pnuemonia under 1 miliwatt! :D
 
