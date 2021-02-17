@@ -6,8 +6,7 @@ Pneumonia Detection project made using Edge Impulse, Himax, Raspberry Pi and bal
 
 • [Himax WE-1 Dev Board](https://www.sparkfun.com/products/17256) (in case you don't have access to bandwidth)
 
-> **Note:** We highly suggest to use the [OpenMV Cam H7 Plus](https://openmv.io/collections/products/products/openmv-cam-h7-plus) as because it has more product funcationalities and also enables us to take Colour images rather than just Grayscale on Himax WE-1 board which is great for taking images of X-Rays.
-
+> **Note:** We highly suggest to use the [OpenMV Cam H7 Plus](https://openmv.io/collections/products/products/openmv-cam-h7-plus) as because it has more product funcationalities and also enables us to take Colour images rather than just Grayscale on Himax WE-1 board, also the OpenMV Cam H7 Plus will not be able to do anomaly detection at the same time. So its a win-win! 
 ## Software Required 
 • [Edge Impulse Studio](https://studio.edgeimpulse.com)
 
