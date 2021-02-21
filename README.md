@@ -1,4 +1,4 @@
-# Penumonia Detection using EdgeML
+# Pneumonia Detection using EdgeML
 Pneumonia Detection project made using Edge Impulse, Himax, Raspberry Pi and balenaCloud.
 
 ## Hardware Required 
@@ -22,6 +22,10 @@ Pneumonia Detection project made using Edge Impulse, Himax, Raspberry Pi and bal
 Click on the following link to deploy the application to your Balena account:
 
 [![](https://balena.io/deploy.png)](https://dashboard.balena-cloud.com/deploy)
+
+Next up fill in the **Application Name**, **Device Type**. Then click on the **Advanced button** and paste https://github.com/edgeimpulse/balena-cam-tinyml in the **GitHub repo URL space**. Finally click create and deploy!
+
+![Filling up dashboard information](https://github.com/arijitdas123student/pneumonia-detection-edgeml/blob/main/readme_images/balena_pnue_deploy_sV9WyTsHOM.jpg)
 
 Once your application has been deployed, click on *Service variable* and add the two following variables to the *edgeimpulse-inference* service:
 * EI_API_KEY
