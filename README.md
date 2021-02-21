@@ -89,7 +89,7 @@ You're now running an ML model which can classify Pnuemonia under 1 milliwatt! :
 ![wow_dank](https://user-images.githubusercontent.com/64097541/107933904-5f0e6d00-6fa5-11eb-97f8-d53763908f87.gif)
 
 ## Credits
-A big big shout-out to [Aurelien](https://twitter.com/aureleq) (User Success Engineer - Edge Impulse), [Jan](https://twitter.com/janjongboom) (CTO - Edge Impulse) and [Marc](https://twitter.com/gy4nt) (Developer Advocate - balena.io) for all the help they have provided throught the development of this project. Without you guys it wouldn't have been possible!
+A big big shout-out to [Aurelien](https://twitter.com/aureleq) (User Success Engineer - [Edge Impulse](https://edgeimpulse.com)), [Jan](https://twitter.com/janjongboom) (CTO - [Edge Impulse](https://edgeimpulse.com)), [Marc](https://twitter.com/gy4nt) (Developer Advocate - [balena.io](https://balena.io)) and [Zin](https://www.linkedin.com/in/zinkyaw) (Senior User Success Engineer - [Edge Impulse](https://edgeimpulse.com)) for all the help they have provided throught the development of this project. Without you guys it wouldn't have been possible!
 
 Also thanks to [Paul Mooney](https://www.kaggle.com/paultimothymooney) (Developer Advocate - Kaggle) for making such an important dataset open-sourced and helping us for collecting X-Ray images for training the model. :)
 
