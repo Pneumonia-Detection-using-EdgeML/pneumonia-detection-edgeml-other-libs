@@ -80,7 +80,7 @@ Check this video below 👇
 [![Pneumonia Detection using EdgeML - Cloning and running locally](http://img.youtube.com/vi/4dlN_rzMYgI/0.jpg)](http://www.youtube.com/watch?v=4dlN_rzMYgI "Penumonia Detection using EdgeML - Cloning and running locally")
 
 ## Congratulations!
-You're now running an ML model which can classify Pnuemonia under 1 miliwatt! :D
+You're now running an ML model which can classify Pnuemonia under 1 milliwatt! :D
 
 ![wow_dank](https://user-images.githubusercontent.com/64097541/107933904-5f0e6d00-6fa5-11eb-97f8-d53763908f87.gif)
 
