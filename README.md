@@ -23,7 +23,8 @@ Click on the following link to deploy the application to your Balena account:
 
 [![](https://balena.io/deploy.png)](https://dashboard.balena-cloud.com/deploy)
 
-Next up fill in the **Application Name**, **Device Type**. Then click on the **Advanced button** and paste https://github.com/edgeimpulse/balena-cam-tinyml in the **GitHub repo URL space**. Finally click create and deploy!
+Next up fill in the **Application Name**, **Device Type**. Then click on the **Advanced button** and paste https://github.com/edgeimpulse/balena-cam-tinyml in the **GitHub repo URL space**.
+Finally click create and deploy!
 
 ![Filling up dashboard information](https://github.com/arijitdas123student/pneumonia-detection-edgeml/blob/main/readme_images/balena_pnue_deploy_sV9WyTsHOM.jpg)
 
