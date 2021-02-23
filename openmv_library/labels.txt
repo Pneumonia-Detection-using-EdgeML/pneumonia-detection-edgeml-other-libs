@@ -1,0 +1,3 @@
+bacteria
+normal
+virus
