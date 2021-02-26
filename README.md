@@ -1,5 +1,8 @@
 # Pneumonia Detection using EdgeML
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 Pneumonia Detection project made using Edge Impulse, Himax, Raspberry Pi and balenaCloud.
+
 
 ## Hardware Required 
 • Raspberry Pi [3B+](https://www.raspberrypi.org/products/raspberry-pi-3-model-b-plus/) or [4B](https://www.raspberrypi.org/products/raspberry-pi-4-model-b/?variant=raspberry-pi-4-model-b-2gb) (Here we have used a [balenaFin](https://www.balena.io/fin/) which is an industrial grade Raspberry Pi)
