@@ -1,4 +1,6 @@
 ## To run the model on Himax WE-1 Dev Board
+[![Bash Shell](https://badges.frapsoft.com/bash/v1/bash.png?v=103)](https://github.com/ellerbrock/open-source-badges/)
+
 First download the [himax_library_package](https://github.com/arijitdas123student/pneumonia-detection-edgeml/tree/main/himax_library)
 
 Then extract the .zip file and click on any of the flashable binaries as per your OS (supports Mac, Linux and Windows).
