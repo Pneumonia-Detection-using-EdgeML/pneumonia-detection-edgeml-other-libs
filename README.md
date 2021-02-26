@@ -94,4 +94,6 @@ A big big shout-out to [Aurelien](https://twitter.com/aureleq) (User Success Eng
 
 Also thanks to [Paul Mooney](https://www.kaggle.com/paultimothymooney) (Developer Advocate - Kaggle) for making such an important dataset open-sourced and helping us for collecting X-Ray images for training the model. :)
 
+Plus thanks to **YOU** for reading this entire project README! :D
+
 ![thank_you_man](https://user-images.githubusercontent.com/64097541/107934298-e1972c80-6fa5-11eb-8b31-bb00fca8f0c3.gif)
