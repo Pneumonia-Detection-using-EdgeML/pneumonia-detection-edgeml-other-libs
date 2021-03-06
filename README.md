@@ -23,47 +23,7 @@ Pneumonia Detection project made using Edge Impulse, Himax, Raspberry Pi and bal
 > **Pssh:** Public version of the Edge Impulse studio project is [here](https://studio.edgeimpulse.com/public/18340/latest), you're free to fork it and use it without starting everything from scratch! :)
 
 ## To deploy on Raspberry Pi using balenaCloud 
-Click on the following link to deploy the application to your Balena account:
-
-[![](https://balena.io/deploy.png)](https://dashboard.balena-cloud.com/deploy)
-
-Next up fill in the **Application Name**, **Device Type**. Then click on the **Advanced button** and paste https://github.com/edgeimpulse/balena-cam-tinyml in the **GitHub repo URL space**.
-Finally click create and deploy!
-
-![Filling up dashboard information](https://github.com/arijitdas123student/pneumonia-detection-edgeml/blob/main/readme_images/balena_pnue_deploy_sV9WyTsHOM.jpg)
-
-Once your application has been deployed, click on *Service variable* and add the two following variables to the *edgeimpulse-inference* service:
-* EI_API_KEY
-* EI_PROJECT_ID
-
-You can get the Project ID value in your Edge Impulse's project dashboard. The API Key is in the *Keys* subsection of the dashboard. Make sure to copy the whole API Key value from Edge Impulse Studio.
-
-![Service variables](https://github.com/arijitdas123student/pneumonia-detection-edgeml/blob/main/readme_images/Screenshot%20(57)_LI.jpg)
-
-Finally select the *Devices* section and add your device. Select the *Development* version if you wish to run local tests easily. Don't forget to fill up your wifi network credentials if needed:
-
-![Add device to Balena](https://github.com/arijitdas123student/pneumonia-detection-edgeml/blob/main/readme_images/Screenshot%20(58).png)
-
-Next flash the balenaOS image to your Raspberry Pi using balenaEtcher. 
-Turn on the Raspberry Pi and you will see your device stating "Online" after few seconds, then restart the containers. You should see containers' logs as below:
-
-![Containers' logs](https://github.com/arijitdas123student/pneumonia-detection-edgeml/blob/main/readme_images/Screenshot%20(59)_LI.jpg)
-
-## Testing the model
-
-You will see the `Local IP` of your Raspberry Pi written in your [balena Dashboard](https://dashboard.balena-cloud.com/apps).
-
-Fire up an empty browser tab and type that IP address. 
-
-You will get to see a page wherein the labels will get displayed.
-
-![Local IP Screen](https://github.com/arijitdas123student/pneumonia-detection-edgeml/blob/main/readme_images/Screenshot%20(60).png)
-  
-Now bring the camera closer to the X-Ray or the x-ray image you want to scan. 
-
-It will display the results at the bottom of the page with units from 0 to 1 wherein 1 says to be the highest accuracy.
-
-> **Note:** The Raspberry Pi can also be accessed if the `PUBLIC IP ADDRESS` is enabled.
+Check [this repository](https://github.com/Pneumonia-Detection-using-EdgeML/pneumonia-detection-balenaCAM) for all the instructions on deploying our model to your Raspberry Pi using [balena](https://balena.io).
 
 
 ## To deploy on Himax WE-1 Dev board using Edge Impulse CLI
