@@ -2,7 +2,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
 
-Pneumonia Detection project made using Edge Impulse, Himax, Raspberry Pi and balenaCloud.
+Pneumonia Detection project made using Edge Impulse, Himax, OpenMV Cam, Raspberry Pi and balenaCloud.
 
 
 ## Hardware Required 
@@ -20,6 +20,8 @@ Pneumonia Detection project made using Edge Impulse, Himax, Raspberry Pi and bal
 
 • [balenaOS](https://www.balena.io/os/)
 
+• [OpenMV IDE](https://openmv.io/pages/download)
+
 > **Pssh:** Public version of the Edge Impulse studio project is [here](https://studio.edgeimpulse.com/public/18340/latest), you're free to fork it and use it without starting everything from scratch! :)
 
 ## To deploy on Raspberry Pi using balenaCloud 
@@ -27,13 +29,10 @@ Check [this repository](https://github.com/Pneumonia-Detection-using-EdgeML/pneu
 
 
 ## To deploy on Himax WE-1 Dev board using Edge Impulse CLI
-First download the [himax_library_package](https://github.com/arijitdas123student/pneumonia-detection-edgeml/tree/main/himax_library) 
+Check the [himax_library directory](https://github.com/Pneumonia-Detection-using-EdgeML/pneumonia-detection-edgeml-other-libs/tree/main/himax_library) to get to know how you can deploy the ML model onto your Himax WE-1 Dev Board.
 
-Then extract the .zip file and click on any of the flashable binaries as per your OS (supports Mac, Linux and Windows).
-
-Then open Terminal/Command Prompt and type `edge-impulse-run-impulse` and wait for a couple of seconds for the CLI to connect with the board via serial.
-
-The move the board to any X-Ray or download our dataset images from [here](https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia) and that's it you're done! :)
+## To deploy on OpenMV Cam H7 Plus board using OpenMV IDE 
+Check the [openmv_library directory](https://github.com/Pneumonia-Detection-using-EdgeML/pneumonia-detection-edgeml-other-libs/tree/main/openmv_library) to get to know how you can deploy the ML model onto your OpenMV Cam H7 Plus board using OpenMV IDE.
 
 ## Videos/Resources 
 **Having issues with deploying this on a Raspberry Pi ?**
