@@ -3,9 +3,11 @@
 import sensor, image, time, os, tf
 
 sensor.reset()                         # Reset and initialize the sensor.
-sensor.set_pixformat(sensor.RGB565)    # Set pixel format to RGB565 (or GRAYSCALE)
+sensor.set_pixformat(sensor.GRAYSCALE)    # Set pixel format to RGB565 (or GRAYSCALE)
 sensor.set_framesize(sensor.QVGA)      # Set frame size to QVGA (320x240)
 sensor.set_windowing((240, 240))       # Set 240x240 window.
+#sensor.set_auto_whitebal(True)
+#sensor.set_auto_gain(True)
 sensor.skip_frames(time=2000)          # Let the camera adjust.
 
 net = "trained.tflite"
@@ -24,7 +26,19 @@ while(True):
         # This combines the labels and confidence values into a list of tuples
         predictions_list = list(zip(labels, obj.output()))
 
+
         for i in range(len(predictions_list)):
-            print("%s = %f" % (predictions_list[i][0], predictions_list[i][1]))
+           print("%s = %f" % (predictions_list[i][0], predictions_list[i][1]))
+
+           if predictions_list[i][0] == 'bacteria' and predictions_list[i][1] > 0.5:
+              print("Bacteria")
+              img.draw_string(10,10, "Bacteria", scale=3, mono_space=False)
+           elif predictions_list[i][0] == 'normal' and predictions_list[i][1] > 0.5:
+              print("Normal")
+              img.draw_string(10,10, "Normal", scale=3, mono_space=False)
+           elif predictions_list[i][0] == 'virus' and predictions_list[i][1] > 0.5:
+              print("Virus")
+              img.draw_string(10,10, "Virus", scale=3, mono_space=False)
+
 
     print(clock.fps(), "fps")
