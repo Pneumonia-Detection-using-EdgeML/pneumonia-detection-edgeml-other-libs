@@ -5,7 +5,6 @@
 This repoistory is a part consisting of the libraries and binaries to run the [Pneumonia Detection using EdgeML](https://www.hackster.io/arijit_das_student/pneumonia-classification-detection-using-edgeml-991e18) project model on your Himax WE-1 Board, OpenMV CAM H7 Plus or running the model locally on your device.
 
 ## Hardware Required 
-• Raspberry Pi [3B+](https://www.raspberrypi.org/products/raspberry-pi-3-model-b-plus/) or [4B](https://www.raspberrypi.org/products/raspberry-pi-4-model-b/?variant=raspberry-pi-4-model-b-2gb) (Here we have used a [balenaFin](https://www.balena.io/fin/) which is an industrial grade Raspberry Pi)
 
 • [Himax WE-1 Dev Board](https://www.sparkfun.com/products/17256) (in case you don't have access to bandwidth)
 
