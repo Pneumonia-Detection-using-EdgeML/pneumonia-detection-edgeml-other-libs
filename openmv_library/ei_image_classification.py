@@ -8,7 +8,7 @@ sensor.set_framesize(sensor.QVGA)      # Set frame size to QVGA (320x240)
 sensor.set_windowing((240, 240))       # Set 240x240 window.
 #sensor.set_auto_whitebal(True)
 #sensor.set_auto_gain(True)
-sensor.skip_frames(time=2000)          # Let the camera adjust.
+sensor.skip_frames(time=1000)          # Let the camera adjust.
 
 net = "trained.tflite"
 labels = [line.rstrip('\n') for line in open("labels.txt")]
