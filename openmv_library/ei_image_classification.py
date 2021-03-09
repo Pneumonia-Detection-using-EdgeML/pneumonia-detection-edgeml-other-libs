@@ -1,5 +1,5 @@
 # Edge Impulse - OpenMV Image Classification Example
-
+# Modifications by Arijit Das and Zin Kyaw
 import sensor, image, time, os, tf
 
 sensor.reset()                         # Reset and initialize the sensor.

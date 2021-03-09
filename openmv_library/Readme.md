@@ -1,12 +1,12 @@
 # Running the inference on an OpenMV Cam H7 Plus Dev Board
 
-First clone the [repo](https://github.com/arijitdas123student/pneumonia-detection-edgeml).
+First clone the [repo](https://github.com/Pneumonia-Detection-using-EdgeML/pneumonia-detection-edgeml).
 
-Then head over to the [openmv_library directory](https://github.com/arijitdas123student/pneumonia-detection-edgeml/tree/main/openmv_library).
+Then head over to the [openmv_library directory](https://github.com/Pneumonia-Detection-using-EdgeML/pneumonia-detection-edgeml/tree/main/openmv_library).
 
-To add the model to your OpenMV camera copy the [trained.tflite](https://github.com/arijitdas123student/pneumonia-detection-edgeml/blob/main/openmv_library/trained.tflite) and [labels.txt](https://github.com/arijitdas123student/pneumonia-detection-edgeml/blob/main/openmv_library/labels.txt) files to the 'OpenMV Cam' volume (like a USB drive).
+To add the model to your OpenMV camera copy the [trained.tflite](https://github.com/Pneumonia-Detection-using-EdgeML/pneumonia-detection-edgeml/blob/main/openmv_library/trained.tflite) and [labels.txt](https://github.com/Pneumonia-Detection-using-EdgeML/pneumonia-detection-edgeml/blob/main/openmv_library/labels.txt) files to the 'OpenMV Cam' volume (like a USB drive).
 
-Next, open the [ei_image_classification.py](https://github.com/arijitdas123student/pneumonia-detection-edgeml/blob/main/openmv_library/ei_image_classification.py) file in the OpenMV IDE, and press the 'Play' icon to run the script.
+Next, open the [ei_image_classification.py](https://github.com/Pneumonia-Detection-EdgeML/pneumonia-detection-edgeml/blob/main/openmv_library/ei_image_classification.py) file in the OpenMV IDE, and press the 'Play' icon to run the script.
 
 You will get to see results such as given below  👇
 
