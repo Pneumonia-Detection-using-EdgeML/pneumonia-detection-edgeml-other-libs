@@ -4,6 +4,9 @@
 
 This repoistory is a part consisting of the libraries and binaries to run the [Pneumonia Detection using EdgeML](https://www.hackster.io/arijit_das_student/pneumonia-classification-detection-using-edgeml-991e18) project model on your Himax WE-1 Board, OpenMV CAM H7 Plus or running the model locally on your device.
 
+## Disclaimer 
+*This application is intended for informational, educational and research purposes only. It is not, and it is not intended, for use in the diagnosis of disease or other conditions, or in the cure, mitigation, treatment or prevention of pneumonia. Health care providers should exercise their own independent clinical judgment when using this application in conjunction with patient care.*
+
 ## Hardware Required 
 
 • [Himax WE-1 Dev Board](https://www.sparkfun.com/products/17256) (in case you don't have access to bandwidth)
