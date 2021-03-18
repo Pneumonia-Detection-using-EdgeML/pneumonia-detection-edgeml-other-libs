@@ -47,3 +47,5 @@ Also thanks to [Paul Mooney](https://www.kaggle.com/paultimothymooney) (Develope
 Plus thanks to **YOU** for reading this entire project README! :D
 
 ![thank_you_man](https://user-images.githubusercontent.com/64097541/107934298-e1972c80-6fa5-11eb-8b31-bb00fca8f0c3.gif)
+
+#### Check out our Hackster article [here](https://bit.ly/3qXUcHJ)
